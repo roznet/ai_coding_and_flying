@@ -10,6 +10,17 @@ One big takeaway from early experiments: **data is everything**. The more struct
 
 Contributions welcome — see [Contributing](#contributing) below.
 
+## Contents
+
+- [Weather](#weather)
+- [Flight Planning](#flight-planning)
+- [Airport & Airfield Data](#airport--airfield-data)
+- [NOTAMs](#notams)
+- [Forms & Customs](#forms--customs)
+- [Aviation Data for AI/LLMs](#aviation-data-for-aillms)
+- [European GA Community & Forums](#european-ga-community--forums)
+- [Contributing](#contributing)
+
 ---
 
 ## Weather
