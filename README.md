@@ -12,13 +12,13 @@ Contributions welcome — see [Contributing](#contributing) below.
 
 ## Contents
 
-- [Weather](#weather)
-- [Flight Planning](#flight-planning)
-- [Airport & Airfield Data](#airport--airfield-data)
-- [NOTAMs](#notams)
-- [Forms & Customs](#forms--customs)
-- [Aviation Data for AI/LLMs](#aviation-data-for-aillms)
-- [European GA Community & Forums](#european-ga-community--forums)
+- [Weather](#weather) — [FlyFun Weather](#flyfun-weather--multi-model-aviation-weather-analysis) | [PlaneWx](#planewx--ai-aviation-weather-intelligence) | [CloudPath](#cloudpath--gramet-weather-visualization)
+- [Flight Planning](#flight-planning) — [Autorouter](#autorouter--european-ifr-flight-planning--filing) | [FlyFun Maps](#flyfun-maps--interactive-european-airport-explorer) | [FlightOps Guru](#flightops-guru--ai-flight-planning-assistant)
+- [Airport & Airfield Data](#airport--airfield-data) — [Airfield Directory](#airfield-directory--community-airport-database) | [OurAirports](#ourairports--global-airport-database) | [euro_aip](#euro_aip--european-aip-data-library--database) | [OpenAIP](#openaip--open-aviation-data) | [OpenNav](#opennav--aeronautical-reference-database)
+- [NOTAMs](#notams) — [FlyFun Brief](#flyfun-brief--smart-notam-prioritization-ios)
+- [Forms & Customs](#forms--customs) — [FlyFun Forms](#flyfun-forms--customs--immigration-form-generator)
+- [Aviation Data for AI/LLMs](#aviation-data-for-aillms) — [Airfield Directory MCP](#airfield-directory-mcp--global-airfield-data-for-llms) | [FlyFun MCP Server](#flyfun-mcp-server--european-aviation-data-for-llms) | [GA Trip Planner Skill](#ga-trip-planner-skill--claude-code-skill-for-flight-planning)
+- [European GA Community & Forums](#european-ga-community--forums) — [EuroGA](#euroga--european-general-aviation-forum) | [PPLIR](#pplir--instrument-pilots-community)
 - [Contributing](#contributing)
 
 ---
