@@ -35,6 +35,7 @@ A medium-range weather assessment tool for cross-country GA flights. Full-featur
 - Interactive cross-section visualization and Skew-T soundings
 - LLM-powered weather synopsis (Claude or ChatGPT)
 - **Stack:** Python (FastAPI) + TypeScript frontend
+- **Repo:** https://github.com/roznet/flyfun-weather
 - **Live:** [flyfun.aero](https://flyfun.aero)
 
 ### [PlaneWx](https://www.planewx.ai) — AI Aviation Weather Intelligence
@@ -84,7 +85,7 @@ An interactive maps view of the European AIP data from [euro_aip](https://github
 - Route-based airport search
 - Detailed airport info from official AIP sources
 - **Stack:** Python (FastAPI) + TypeScript frontend
-- **Part of:** [flyfun-apps](https://github.com/roznet/flyfun-apps)
+- **Repo:** https://github.com/roznet/flyfun-apps
 
 ### [FlightOps Guru](https://flightops.guru) — AI Flight Planning Assistant
 `free` `global` `beta`
@@ -108,6 +109,18 @@ A community-driven aviation database with pilot comments, weather data (METAR/TA
 - Interactive map browsing
 - Telegram bot integration and embeddable widgets
 - Pilot comments licensed under Creative Commons BY-SA 4.0
+- **Repo:** https://github.com/airfield-directory
+
+### [OurAirports](https://ourairports.com) — Global Airport Database
+`free` `open-source` `global` `released`
+
+A community-driven, open-data database of 85,000+ airports worldwide. Widely used as a foundational data source by many aviation apps and projects. Data is freely downloadable as CSV files.
+
+- Global coverage with community contributions
+- Downloadable datasets (CSV)
+- Airport search, map view, and nearby airport lookup
+- **Live:** [ourairports.com](https://ourairports.com)
+- **Data:** [ourairports.com/data](https://ourairports.com/data/)
 
 ### [euro_aip](https://github.com/roznet/rzflight/tree/main/euro_aip) — European AIP Data Library & Database
 `open-source` `free` `europe` `released`
@@ -119,7 +132,7 @@ A Python library (`pip install euro-aip`) and SQLite database that ingests freel
 - Database downloadable from [flyfun.aero/data/airports.db](https://flyfun.aero/data/airports.db)
 - **Stack:** Python (SQLAlchemy, FastAPI, Pandas)
 - **Gap:** Several countries aren't automatically updated because their AIP data isn't easily parsable. Contributions welcome.
-- **Part of:** [rzflight](https://github.com/roznet/rzflight)
+- **Repo:** https://github.com/roznet/rzflight/tree/main/euro_aip
 
 ### [OpenAIP](https://www.openaip.net) — Open Aviation Data
 `free` `global` `released`
@@ -154,6 +167,7 @@ An iOS app that intelligently prioritizes NOTAMs for cross-country flights. Tool
 - Designed for processing multi-page NOTAM briefings from long cross-country flights
 - **Stack:** SwiftUI (iOS/macOS)
 - **Key gap:** No official NOTAM API source — currently parses ForeFlight briefing packs.
+- **Repo:** https://github.com/roznet/flyfun-apps
 
 ---
 
@@ -169,6 +183,7 @@ An iOS app that pre-fills official customs, immigration, and FBO forms with flig
 - Passenger list management and document collection for upload
 - No PII stored on device
 - **Stack:** SwiftUI (iOS) + Python (FastAPI) backend
+- **Repo:** https://github.com/roznet/flyfun-forms
 - **App Store:** [FlyFunForms](https://apps.apple.com/us/app/flyfunforms/id6760511907)
 
 ---
@@ -192,6 +207,7 @@ An MCP (Model Context Protocol) server that exposes euro_aip airport, route, and
 - Airport lookups, nearest-airport search, route planning tools
 - GA-friendliness scoring and persona-based rankings
 - Also includes a LangGraph-based aviation chatbot agent
+- **Repo:** https://github.com/roznet/flyfun-apps
 - **Stack:** Python (FastMCP, LangGraph)
 
 ### [GA Trip Planner Skill](.claude/skills/ga-trip-planner/SKILL.md) — Claude Code Skill for Flight Planning
